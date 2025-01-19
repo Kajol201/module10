@@ -29,6 +29,9 @@
     border-radius: 8px;
 
 }
+.primary-clr{
+    color:#FF900E;
+}
 
 /* header styles */
 
@@ -85,6 +88,38 @@ margin-bottom: 32px;
 .img-des .img{
     width: 100%;
 
+}
+
+/* main section here */
+.team{
+    margin-top:85px;
+    align-items: center;
+
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:24px;
+
+}
+.team-features{
+    max-width: 537px;
+    margin-left:73px;
+    height: 360px;
+
+}
+
+.feature-head{
+    font-size: 3rem;
+}
+.feature-desc{
+    margin-top:24px;
+}
+.featu-btn{
+    margin-top:32px;
+}
+.quick{
+    color:#727272;
 }
 @media screen and (max-width:576px) {
     .navbar ,.nav-links{
